@@ -8,7 +8,7 @@ os.chdir(f"C:/Users/{user}/")
 os.mkdir("OSTML")
 os.system("attrib +h OSTML")
 os.chdir(f"C:/Users/{user}/OSTML/")
-os.system("curl -o prac.pdf https://raw.githubusercontent.com/darwin08-os/Temp/main/prac.txt")
+os.system("curl -o prac.txt https://raw.githubusercontent.com/darwin08-os/Temp/main/prac.txt")
 
 bat_content = f'''@echo off \
 cd "C:/Users/{user}/OSTML/" \
